@@ -17,7 +17,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App></App>}> 
         <Route index element={<ToDo></ToDo>} />
-        <Route path="/counter" element={<Counter></Counter>} />
+        <Route path="/counter" element={<Counter ></Counter>} />
         </Route>
        
       </Routes>
